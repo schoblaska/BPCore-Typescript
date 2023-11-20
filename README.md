@@ -9,13 +9,7 @@ the engine.
 
 # Building
 
-First, install node, npm, and Lua 5.3
-
-Next, within this directory, run `npm install -D typescript-to-lua`.
-
-To convert the typescript sources into a Lua bundle, run `npm run build`.
-
-Finally, run `./build.lua` to bundle the output of TSTL along with the other files in manifest.lua.
+After installing dependencies with `npm install`, run `./build.sh` to build the GBA file.
 
 # Limitations
 
